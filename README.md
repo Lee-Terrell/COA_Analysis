@@ -11,7 +11,7 @@ Analyzed the Net Domestic Migration numbers from April 1, 2020 to July 1, 2022 (
     -  [2022 Partisan Lean Scores (txt)](Data/fivethirtyeight_data/partisan_lean_STATES_2022.txt) | [FiveThirtyEight Partisan Lean Scores (website)](https://fivethirtyeight.com/features/how-red-or-blue-is-your-state-your-congressional-district/)
     
 - Software: Python, pandas, Tableau Public 
-- [Link to Tableau Public](https://public.tableau.com/app/profile/lee.terrell/viz/USA-CumulativeDomesticNetMigrationApril12020-July12022/USACumulativeDomesticNetMigration)
+- [Link to Tableau Public dashboard](https://public.tableau.com/app/profile/lee.terrell/viz/USA-CumulativeDomesticNetMigrationApril12020-July12022/USACumulativeDomesticNetMigration)
 
 ## Observations
 
@@ -27,9 +27,9 @@ Not only do we see that the greatest negative net migartion occurs in Democratic
 ## Summary
 
 ### Conclusion
-
+We do not know their political affiliation or other demographic data, but we can clearly see that Americans are migrating out of Democratic-leaning states and into Republic-leaning states.
 
 ### Next Steps
-1. It would be interesting to see if a governor's political party had a stronger correlation to which states had positive or negative net migration.
+1. It would be interesting to see if a governor's political party had a stronger correlation to which states had positive or negative net migration (hypothesizing that a Dem governor might have stricter lockdown rules).
 
 2. The Supreme Court overturned Roe v Wade on June 24, 2022. It will be interesting to see if that event had a measurable influence in the next release of Net Domestic Migration estimates (July 1, 2022 to July 1, 2023)
