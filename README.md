@@ -1,27 +1,35 @@
-# Change of Address Analysis
+# Census Bureau Net Domestic Migration Analysis
 
 ## Overview
 
 ### Purpose
-Analyzing the Change of Address data from the USPS and using it as a proxy to see how/if migration patterns within the USA have changed over the years - mainly since COVID-19. A baseline was created from the 12 months leading up to Lockdown mandates (April '19 - March '20). The following three years after lockdown were compared to the baseline and simply broken up as follows: First year after lockdown (April '20 - March '21), second year after lockdown (April '21 - March '22), third year after lockdown (April '22 - Feb '23). A states `political lean` was also analyzed to see if it could be a potential influence of migration.
+Analyzed the Net Domestic Migration numbers from April 1, 2020 to July 1, 2022 (essentially since COVID-19 lockdown mandates). A state's `political lean` was also analyzed to see if it could be a potential influence of net domestic migration.
 
 ### Resources
 - Data: 
-    - [Compiled Change of Address data (csv)](Data/COA_data/data_of_interest.csv) | [USPS FOIA Library (website)](https://about.usps.com/who/legal/foia/library.htm)
+    - [US Census Bureau Data (csv)](Data/US_Census_Bureau/cumulative_net_domestic_migration_20200401-20220701.csv)
     -  [2022 Partisan Lean Scores (txt)](Data/fivethirtyeight_data/partisan_lean_STATES_2022.txt) | [FiveThirtyEight Partisan Lean Scores (website)](https://fivethirtyeight.com/features/how-red-or-blue-is-your-state-your-congressional-district/)
+    
 - Software: Python, pandas, Tableau Public 
-- [Link to Tableau]()
+- [Link to Tableau Public](https://public.tableau.com/app/profile/lee.terrell/viz/USA-CumulativeDomesticNetMigrationApril12020-July12022/USACumulativeDomesticNetMigration)
 
-## Project Results/Analysis
+## Observations
 
-### Observation 1
+### Mapping Migration
+<img src='Images/Domestic Net Migration 20200401 - 20220701.png'>
+This map depicts the Cumulative Domestic Net Migration from April 1, 2020 to July 1, 2022 as red (net negative migration) and green (net positive migration) arrows. The size of the arrow represents the net volume.
+From this map we could hypothesize that Americans from the northeastern states are migrating to the more Republican leaning southeastern states. It would also appear that west coast Americans are migrating out of Democratic leaning states.
 
-### Observation 2
-
-### Observation 3
+### From Blue to Red
+<img src='Images/Bar Graph- Domestic Net Migration.png'>
+Not only do we see that the greatest negative net migartion occurs in Democratic-leaning California & New York and the largest positive net migration is seen in Republican-leaning Florida & Texas, but we also see that the 12 states with the largest net migration volumes fall along party lines.
 
 ## Summary
 
 ### Conclusion
 
+
 ### Next Steps
+1. It would be interesting to see if a governor's political party had a stronger correlation to which states had positive or negative net migration.
+
+2. The Supreme Court overturned Roe v Wade on June 24, 2022. It will be interesting to see if that event had a measurable influence in the next release of Net Domestic Migration estimates (July 1, 2022 to July 1, 2023)
